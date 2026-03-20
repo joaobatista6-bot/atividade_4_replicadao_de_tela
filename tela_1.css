@@ -36,7 +36,7 @@ body {
     line-height: 1.2;
 }
 
-.btn-small {
+.btn{
     margin-top: 10px;
     background-color: rgb(4, 92, 192);
     color: white;
@@ -46,14 +46,20 @@ body {
     cursor: pointer;
     font-size: 12px;
 }
-
+.btn:hover{
+    transform: scale(1.02);
+}
+.btn h2{
+    color: white;
+}
 .menu {
+    margin-left: 300px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.menu button {
+.menu h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,12 +75,4 @@ body {
     cursor: pointer;
 
     font-size: 12px;
-}
-
-.menu i {
-    background-color: white;
-    color: rgb(4, 92, 192);
-    border-radius: 50%;
-    padding: 3px 6px;
-    font-size: 10px;
 }
