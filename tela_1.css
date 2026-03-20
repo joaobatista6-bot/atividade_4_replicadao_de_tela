@@ -8,6 +8,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
+section {
+    display: flex;
+    width: 100%;
+    height: 330px;
+    margin-bottom: 10px;
+}
+
 .intro {
     display: flex;
     align-items: center;
@@ -83,4 +90,89 @@ body {
     margin-left: 30px;
     scale: 2;
 }
+
+.pedidos {
+      font-family: Arial, sans-serif;
+      width: 100%;
+      max-width: 800px;
+      border: 1px solid #ccc;
+      background-color: rgb(183, 217, 238);
+      border-radius: 10px;
+      margin-left: 3px;
+    }
+
+    .pedidos-cab {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 12px 16px;
+      background: #f5f5f5;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .pedidos-cab h3 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    .pedidos-cab p {
+      margin: 0;
+      cursor: pointer;
+    }
+
+    .pedidos-tabela {
+      width: 100%;
+    }
+
+    .linha-pedidos {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      padding: 10px 16px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .cabecario-pedidos {
+      background-color: #fafafa;
+      font-weight: bold;
+      border-bottom: 2px solid #ddd;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+
+    .linha-pedidos p {
+      margin: 0;
+      margin-top: 15px;
+    }
+
+    .ok {
+        background-color: green;
+        color: white;
+        font-weight: bold;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .analise {
+        background-color: orange;
+        color: white;
+        font-weight: bold;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .erro {
+        background-color: red;
+        color: white;
+        font-weight: bold;
+        border-radius: 20px;
+        text-align: center;
+    }
+    #icon{
+        color: rgb(0, 0, 0);
+        margin-left: 15px;
+        scale: 2;
+    }
 
