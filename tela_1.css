@@ -11,6 +11,7 @@ body {
 .intro {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 60%;
     height: 330px;
     background-color: rgb(183, 217, 238);
@@ -27,7 +28,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 180px;
+    width: 240px;
 }
 
 .intro h2 {
@@ -42,9 +43,10 @@ body {
     color: white;
     border: none;
     border-radius: 20px;
-    padding: 6px 12px;
+    padding: 4px 12px;
     cursor: pointer;
     font-size: 12px;
+    width: 100%;
 }
 .btn:hover{
     transform: scale(1.02);
@@ -53,7 +55,6 @@ body {
     color: white;
 }
 .menu {
-    margin-left: 300px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -76,3 +77,10 @@ body {
 
     font-size: 12px;
 }
+
+.icone {
+    color: white;
+    margin-left: 30px;
+    scale: 2;
+}
+
